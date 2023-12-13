@@ -1,0 +1,20 @@
+termux-setup-storage
+
+cd /sdcard/yomi-bot
+
+pkg install git
+
+pkg update
+ 
+pkg upgrade
+
+pkg install ffmpeg
+
+pkg install wget
+
+pkg install nodejs
+
+pkg install npm
+
+pkg install yarn
+
