@@ -1,3 +1,4 @@
+//Créditos a RobleUY
 let handler = async (m, { conn, text }) => {
   try {
     if (!text) {
