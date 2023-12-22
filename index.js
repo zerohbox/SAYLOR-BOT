@@ -4,7 +4,7 @@ const P = require('pino')
 const cfonts = require('cfonts')
 const clc = require("cli-color");
 const numerodono = "+56961548695"
-const banner = cfonts.render("SAILOR | BOT", {
+const banner = cfonts.render("SAYLOR | BOT", {
   font: 'pallet',
   align: 'center',
   gradient: ["green","blue"]
@@ -25,7 +25,7 @@ return admins
 async function connectToWhatsApp () {
 const store = makeInMemoryStore({ logger: P().child({ level: "silent", stream: "store" })})
 console.log(banner.string)
-console.log(`Bienvenido a SAILOR BOT\nEsta base fue creada por n4mecit4`)
+console.log(`Bienvenido a SAYLOR BOT\nEsta base fue creada por n4mecit4`)
 const { state, saveCreds } = await useMultiFileAuthState('./qr_code')
 
     const sock = makeWASocket({
@@ -172,7 +172,7 @@ enviar("--N4MECIT4")
 break
 
 case "bot" :
-enviar("hola soy Sailor un bot a tu servicio")
+enviar("hola soy Saylor un bot a tu servicio")
 break
 
 
